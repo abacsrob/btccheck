@@ -81,9 +81,10 @@ public class CheckBtc {
     public static void main(String[] args) {
         Map<String, CryptoCurrencyData> cryptos = getCurrencyData();
 
-        //check out BTC data
-        CryptoCurrencyData btcData = cryptos.get("BTC");
-        System.out.println(btcData);
+        //check out crypto data
+        System.out.println(cryptos.get("BTC"));
+        System.out.println(cryptos.get("BCH"));
+        System.out.println(cryptos.get("LTC"));
     }
 
 }
