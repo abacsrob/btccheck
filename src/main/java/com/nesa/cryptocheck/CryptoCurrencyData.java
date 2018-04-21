@@ -6,7 +6,7 @@ public class CryptoCurrencyData {
 
 	private String currencyCode;
 	private String currencyName;
-	private BigDecimal marketcap;
+	private BigDecimal marketCap;
 	private BigDecimal usdPrice;
 	private BigDecimal volume24h;
 	private BigDecimal circulatingSupply;
@@ -24,11 +24,11 @@ public class CryptoCurrencyData {
 	public void setCurrencyName(String currencyName) {
 		this.currencyName = currencyName;
 	}
-	public BigDecimal getMarketcap() {
-		return marketcap;
+	public BigDecimal getMarketCap() {
+		return marketCap;
 	}
-	public void setMarketcap(BigDecimal marketcap) {
-		this.marketcap = marketcap;
+	public void setMarketCap(BigDecimal marketCap) {
+		this.marketCap = marketCap;
 	}
 	public BigDecimal getUsdPrice() {
 		return usdPrice;
@@ -56,8 +56,8 @@ public class CryptoCurrencyData {
 	}
 	@Override
 	public String toString() {
-		return "CryptoCurrencyData [currencyCode=" + currencyCode + ", currencyName=" + currencyName + ", marketcap="
-				+ marketcap + ", usdPrice=" + usdPrice + ", volume24h=" + volume24h + ", circulatingSupply="
+		return "CryptoCurrencyData [currencyCode=" + currencyCode + ", currencyName=" + currencyName + ", marketCap="
+				+ marketCap + ", usdPrice=" + usdPrice + ", volume24h=" + volume24h + ", circulatingSupply="
 				+ circulatingSupply + ", pricePercentChange24h=" + pricePercentChange24h + "]";
 	}
 

@@ -49,7 +49,7 @@ public class CheckBtc {
                 		bdata.setCurrencyName(node.getChildNodes().item(2).getTextContent());
                 		break;
                 	case 2:
-                		bdata.setMarketcap(new BigDecimal(content));
+                		bdata.setMarketCap(new BigDecimal(content));
                 		break;
                 	case 3:
                 		bdata.setUsdPrice(new BigDecimal(content.replaceAll("[^\\d.]", "")));
